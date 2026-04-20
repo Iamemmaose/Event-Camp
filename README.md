@@ -2,7 +2,7 @@ Event Camp
 
 A modern **event management web application** built with React, designed to showcase events, schedules, and information in a clean and interactive UI.
 
-GitHub Repo:** https://github.com/Iamemmaose/Event-Camp
+GitHub Repo:https://github.com/Iamemmaose/Event-Camp
 
 About the Project:
 
@@ -30,7 +30,7 @@ Tech Stack
 | ------------------------- | --------------------- |
 | React.js                  | Frontend framework    |
 | JavaScript (ES6+)         | Logic & interactivity |
-| CSS3 / Tailwind (if used) | Styling               |
+| CSS3                      | Styling               |
 | HTML5                     | Structure (via JSX)   |
 
 Project Structure
