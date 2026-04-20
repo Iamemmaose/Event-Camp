@@ -4,7 +4,8 @@
     justify-content: center;
     width: 100%;
     min-height: 80dvh;
-    background: url('https://media.istockphoto.com/id/2223522225/photo/portrait-of-a-young-speaker-standing-on-a-conference-stage-technology-startup-founder-using-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=W-MeAcmG2sAuFJSSkha8OL-R1pYS-HfQ92Ea8EIW39U=') center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0) 100%), url('https://media.istockphoto.com/id/2223522225/photo/portrait-of-a-young-speaker-standing-on-a-conference-stage-technology-startup-founder-using-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=W-MeAcmG2sAuFJSSkha8OL-R1pYS-HfQ92Ea8EIW39U=') center/cover no-repeat;
+    background-attachment: fixed;
     padding: 2rem;
 }
 
