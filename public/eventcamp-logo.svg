@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#f3f0ff" stroke="#a855f7" stroke-width="2"/>
+  
+  <!-- Tent/Flag Left -->
+  <path d="M 60 80 L 80 50 L 80 130" fill="#a855f7" stroke="#9333ea" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Tent/Flag Right -->
+  <path d="M 140 80 L 120 50 L 120 130" fill="#c084fc" stroke="#9333ea" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Center Pole -->
+  <line x1="100" y1="50" x2="100" y2="130" stroke="#9333ea" stroke-width="3"/>
+  
+  <!-- Base Line -->
+  <line x1="60" y1="130" x2="140" y2="130" stroke="#a855f7" stroke-width="2"/>
+  
+  <!-- Stars for celebration -->
+  <g fill="#a855f7">
+    <!-- Star 1 -->
+    <circle cx="70" cy="40" r="3"/>
+    <!-- Star 2 -->
+    <circle cx="130" cy="40" r="3"/>
+    <!-- Star 3 -->
+    <circle cx="50" cy="100" r="2.5"/>
+    <!-- Star 4 -->
+    <circle cx="150" cy="100" r="2.5"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#5b21b6">
+    EVENTCAMP
+  </text>
+</svg>
