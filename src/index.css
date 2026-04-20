@@ -36,7 +36,6 @@ img,
 picture,
 video,
 svg {
-  display: block;
   max-width: 100%;
 }
 
@@ -63,8 +62,6 @@ body::-webkit-scrollbar-thumb {
 
 button {
     display: inline-block;
-    margin: 2rem 1rem 0 0;
-    padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 500;
     color: var(--surface);

@@ -1,0 +1,40 @@
+.event-listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 2rem 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.event-card {
+    flex: 1 1 calc(25% - 1rem);
+    max-width: 100%;
+    padding: 1rem;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    transition: all 0.5s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+ }
+
+ .event-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.event-actions button {
+    padding: 0.5rem 1rem;
+}
