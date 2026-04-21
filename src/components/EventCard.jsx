@@ -1,12 +1,26 @@
 export default function EventCard({event}) {
 
+    const dateObj = new Date(event.date);
+
+    const formattedDate = dateObj.toLocaleDateString(undefined, {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
+
+    const formattedTime = dateObj.toLocaleTimeString(undefined, {
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+
     return(
         <div className="event-card">
             <img src={event.image} alt={event.title} className="event-image" />
             <div className="event-details">
                 <h3>{event.title}</h3>
-                <p>{event.date} | {event.location}</p>
-                <p>Categories:{event.category}</p>
+                <p>{formattedDate} by {formattedTime} </p>
+                <p>Location: {event.location}</p>
+                <p>Categories: {event.categories.join('  ')}</p>
                 <p>Created by: {event.createdBy}</p>
             </div>
             <div className="event-actions">
