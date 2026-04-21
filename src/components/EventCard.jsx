@@ -10,8 +10,8 @@ export default function EventCard({event}) {
                 <p>Created by: {event.createdBy}</p>
             </div>
             <div className="event-actions">
-                <button className="details-button">View Details</button>
-                <button className="add-event-list">Add to list</button>
+                <button>View Details</button>
+                <button>Add to list</button>
             </div>
         </div>
     )

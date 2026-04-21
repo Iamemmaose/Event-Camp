@@ -1,0 +1,70 @@
+.footer {
+    background: var(--surface-strong);
+    color: var(--text);
+    padding: 3rem 2rem 1.5rem;
+    margin-top: 3rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 220px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-strong);
+    cursor: pointer;
+}
+
+.footer-section h4 {
+    margin-bottom: 0.8rem;
+    color: var(--text);
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 0.9rem;
+    transition: 0.2s ease;
+}
+
+.footer-section a:hover {
+    color: var(--accent);
+}
+
+.socials a {
+    display: inline-block;
+    margin-right: 12px;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--muted);
+}

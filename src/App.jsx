@@ -7,6 +7,7 @@ import About from './pages/About'
 import Events from './pages/Events'
 import EventList from './pages/EventList'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/event-list' element={<EventList />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )
