@@ -1,4 +1,8 @@
-export default function EventCard({event}) {
+import { useNavigate } from 'react-router-dom'
+
+export default function EventCard({event, eventKey}) {
+
+    const navigate = useNavigate()
 
     const dateObj = new Date(event.date);
 
@@ -18,13 +22,13 @@ export default function EventCard({event}) {
             <img src={event.image} alt={event.title} className="event-image" />
             <div className="event-details">
                 <h3>{event.title}</h3>
-                <p>{formattedDate} by {formattedTime} </p>
+                <p>Date: {formattedDate} by {formattedTime} </p>
                 <p>Location: {event.location}</p>
-                <p>Categories: {event.categories.join('  ')}</p>
+                <p>Categories: {event.categories?.join('  ')}</p>
                 <p>Created by: {event.createdBy}</p>
             </div>
             <div className="event-actions">
-                <button>View Details</button>
+                <button onClick={() => navigate(`/events/${eventKey}`)}> View Details</button>
                 <button>Add to list</button>
             </div>
         </div>

@@ -1,11 +1,11 @@
 import EventCard from "./EventCard";
 
-export default function EventListing({events}) {
-    return(
+export default function EventListing({ events }) {
+    return (
         <div className="event-listing"> 
-        {Object.entries(events).map(([eventId, event]) => (
-            <EventCard key={eventId} event={event} />
-        ))}
+        {Object.entries(events).map(([key, event]) => (
+            <EventCard event={event} eventKey={key} />
+            ))}
         </div>
     )
 }
