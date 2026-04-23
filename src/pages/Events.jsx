@@ -10,7 +10,7 @@ export default function Events() {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                const response = await fetch(`https://event-listing-fd519-default-rtdb.firebaseio.com/events.json`, {
+                const response = await fetch(`http://localhost:5000/events`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json'

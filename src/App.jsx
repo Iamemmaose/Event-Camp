@@ -9,6 +9,11 @@ import EventList from './pages/EventList'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import EventDetails from './components/EventDetails'
+import AdminLayout from './admin/pages/AdminLayout'
+import Dashboard from './admin/pages/Dashboard'
+import ManageEvents from './admin/pages/ManageEvents'
+import AddEvent from './admin/components/AddEvent'
+import EditEvent from './admin/components/EditEvent'
 
 function App() {
 
@@ -23,6 +28,13 @@ function App() {
           <Route path='/event-list' element={<EventList />} />
           <Route path ='/events/:id' element={<EventDetails />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/admin' element={<AdminLayout />}>
+            <Route index element={<Dashboard />} />
+            <Route path='dashboard' element={<Dashboard />} />
+            <Route path='manage-events' element={<ManageEvents />} />
+            <Route path='add-new-event' element={<AddEvent />} />
+            <Route path='edit-event/:id' element={<EditEvent />} />
+          </Route>
         </Routes>
         <Footer />
       </Router>

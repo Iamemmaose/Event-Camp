@@ -5,7 +5,6 @@ import './EventDetails.css'
 export default function EventDetails() {
 
     const { id } = useParams()
-    const nextId = Number(id) + 1
     const [events, setEvents] = useState(null) 
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
@@ -13,7 +12,7 @@ export default function EventDetails() {
     useEffect(() => {
         const fetchEventDetail = async () => {
             try {
-                const response = await fetch(`https://event-listing-fd519-default-rtdb.firebaseio.com/events/event${nextId}.json`, {
+                const response = await fetch(`http://localhost:5000/events/${id}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json'
@@ -24,7 +23,6 @@ export default function EventDetails() {
                 }
                 const data = await response.json()
                 setEvents(data)
-                console.log(data)
             } catch(error) {
                 setError(error.message)
             } finally {               

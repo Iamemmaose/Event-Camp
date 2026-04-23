@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 
-export default function EventCard({event, eventKey}) {
+export default function EventCard({event}) {
 
     const navigate = useNavigate()
 
@@ -19,7 +19,9 @@ export default function EventCard({event, eventKey}) {
 
     return(
         <div className="event-card">
-            <img src={event.image} alt={event.title} className="event-image" />
+            <div className="event-imagebox">
+                <img src={event.image} alt={event.title} className="event-image" />
+            </div>
             <div className="event-details">
                 <h3>{event.title}</h3>
                 <p>Date: {formattedDate} by {formattedTime} </p>
@@ -28,7 +30,7 @@ export default function EventCard({event, eventKey}) {
                 <p>Created by: {event.createdBy}</p>
             </div>
             <div className="event-actions">
-                <button onClick={() => navigate(`/events/${eventKey}`)}> View Details</button>
+                <button onClick={() => navigate(`/events/${event.id}`)}> View Details</button>
                 <button>Add to list</button>
             </div>
         </div>

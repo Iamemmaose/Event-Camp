@@ -1,0 +1,144 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Fitness Bootcamp",
+      "location": "Lekki",
+      "description": "The Fitness Bootcamp is an outdoor training event designed to help participants improve their physical health, endurance, and overall well being in a supportive group environment. The session includes a mix of cardio exercises, strength training, and flexibility routines led by experienced fitness instructors. Participants of all fitness levels are welcome, and modifications will be provided to ensure everyone can safely take part. In addition to the workout, there will be short talks on nutrition, recovery, and maintaining a consistent fitness routine. This event is perfect for anyone looking to stay active, meet like minded individuals, and build healthier habits while enjoying a motivating and energetic atmosphere",
+      "date": "2026-06-18T10:30",
+      "categories": [
+        "fitness",
+        "health"
+      ],
+      "image": "https://images.unsplash.com/photo-1627483298606-cf54c61779a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8Zml0bmVzc3xlbnwwfHwwfHx8MA%3D%3D",
+      "createdAt": "2026-04-23T15:57:24.048Z",
+      "createdBy": "Elizabeth"
+    },
+    {
+      "categories": [
+        "marketing",
+        "business"
+      ],
+      "createdAt": "2026-05-22T10:00:00.000Z",
+      "createdBy": "Douglas",
+      "date": "2026-05-22T11:00",
+      "description": "This masterclass is designed for individuals and business owners who want to improve their digital marketing skills and grow their online presence effectively. Participants will learn strategies for social media marketing, search engine optimization, content creation, and paid advertising. The session will include practical examples and case studies to help attendees understand how to apply these techniques in real world scenarios. By the end of the event, participants will have a clearer understanding of how to attract, engage, and convert their target audience using modern digital tools and platforms",
+      "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFya2V0aW5nfGVufDB8fDB8fHww",
+      "location": "Abuja",
+      "title": "Marketing Masterclass",
+      "id": "1760829316676"
+    },
+    {
+      "categories": [
+        "art",
+        "creativity"
+      ],
+      "createdAt": "2026-05-28T08:00:00.000Z",
+      "createdBy": "Augustina",
+      "date": "2026-05-28T09:00",
+      "description": "The Art and Creativity Workshop is a hands on session aimed at inspiring participants to explore their artistic abilities and express themselves through various forms of art. Attendees will experiment with painting, sketching, and mixed media while learning basic techniques from experienced artists. The workshop encourages creativity, relaxation, and self expression in a supportive environment. No prior experience is required, making it perfect for beginners as well as those looking to refine their skills. All materials will be provided, and participants will leave with their own unique creations",
+      "image": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXJ0fGVufDB8fDB8fHww",
+      "location": "Lagos",
+      "title": "Art and Creativity Workshop",
+      "id": "1760883000257"
+    },
+    {
+      "categories": [
+        "career",
+        "education"
+      ],
+      "createdAt": "2026-06-25T08:59:00.000Z",
+      "createdBy": "Tola",
+      "date": "2026-06-25T09:59",
+      "description": "This seminar focuses on helping individuals plan and advance their careers through strategic goal setting and skill development. Participants will learn about resume building, interview techniques, personal branding, and networking strategies. Industry professionals will share insights into what employers are looking for and how to stand out in a competitive job market. The session will also include interactive discussions and opportunities for attendees to ask questions and receive personalized advice. This event is ideal for students, recent graduates, and professionals looking to take the next step in their careers",
+      "image": "https://images.unsplash.com/photo-1523287562758-66c7fc58967f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyZWVyfGVufDB8fDB8fHww",
+      "location": "Ibadan",
+      "title": "Career Development Seminar",
+      "id": "1760884000421"
+    },
+    {
+      "categories": [
+        "tech",
+        "networking"
+      ],
+      "createdAt": "2026-04-16T09:00:00Z",
+      "createdBy": "Charles",
+      "date": "2026-05-10T10:00:00Z",
+      "description": "This event brings together frontend developers from different backgrounds to connect, collaborate, and share knowledge about modern web development. Attendees will have the opportunity to participate in interactive sessions focused on JavaScript frameworks, UI and UX best practices, and performance optimization techniques. There will also be networking segments where developers can meet potential collaborators, mentors, or employers. Whether you are a beginner learning the basics or an experienced developer exploring advanced tools, this meetup provides valuable insights and connections. Light refreshments will be provided, and participants are encouraged to bring their laptops for live coding sessions and demonstrations",
+      "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGV2ZW50fGVufDB8fDB8fHww",
+      "location": "Lagos",
+      "title": "Frontend Developers Meetup",
+      "id": "1760884600992"
+    },
+    {
+      "id": "1760885200125",
+      "categories": [
+        "business",
+        "startup"
+      ],
+      "createdAt": "2026-04-16T09:10:00Z",
+      "createdBy": "Paul ",
+      "date": "2026-05-15T18:00:00Z",
+      "description": "Startup Pitch Night is an exciting event designed for entrepreneurs who want to present their innovative ideas to a panel of investors and industry experts. Participants will deliver short, impactful presentations outlining their business models, target markets, and growth strategies. The event also includes feedback sessions where judges provide constructive insights to help founders refine their concepts. Attendees will gain exposure to emerging trends in the startup ecosystem and have the chance to network with founders, venture capitalists, and business professionals. This is a great opportunity for anyone interested in entrepreneurship, innovation, and building scalable solutions in today’s competitive market",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGV2ZW50fGVufDB8fDB8fHww",
+      "location": "Abuja",
+      "title": "Startup Pitch Night"
+    },
+    {
+      "categories": [
+        "music",
+        "entertainment"
+      ],
+      "createdAt": "2026-04-16T09:20:00Z",
+      "createdBy": "Linda",
+      "date": "2026-06-01T16:00:00Z",
+      "description": "The Music Festival is a vibrant celebration of sound, culture, and creativity, featuring live performances from some of the most talented local artists and bands. Attendees will enjoy a diverse lineup of genres, including afrobeat, hip hop, jazz, and contemporary pop music. In addition to the performances, there will be food vendors offering a variety of local and international dishes, as well as interactive spaces for art and cultural expression. The festival is designed to create an unforgettable experience where people can relax, dance, and connect through music. It is open to all age groups and promises a lively and energetic atmosphere throughout the day",
+      "image": "https://images.unsplash.com/photo-1522158637959-30385a09e0da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGV2ZW50fGVufDB8fDB8fHww",
+      "location": "Lagos",
+      "title": "Music Festival",
+      "id": "1760885800177"
+    },
+    {
+      "categories": [
+        "tech",
+        "education"
+      ],
+      "createdAt": "2026-04-16T09:30:00Z",
+      "createdBy": "Mary",
+      "date": "2026-05-20T09:00:00Z",
+      "description": "This hands on workshop is designed for beginners who want to build a strong foundation in JavaScript and understand how it powers modern web applications. Participants will learn core concepts such as variables, functions, loops, and event handling through guided exercises and real world examples. The session will also introduce basic DOM manipulation and how JavaScript interacts with HTML and CSS. Experienced instructors will be available to provide support and answer questions throughout the workshop. By the end of the session, attendees will have built small interactive projects and gained the confidence to continue their learning journey in web development",
+      "image": "https://plus.unsplash.com/premium_photo-1663089174939-5870e2e8d62e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXZlbnR8ZW58MHx8MHx8fDA%3D",
+      "location": "Ibadan",
+      "title": "Tech Workshop",
+      "id": "1760886400999"
+    },
+    {
+      "id": "1776955063298",
+      "title": "Food and Culture Festival",
+      "location": "Port harcourt",
+      "description": "The Food and Culture Festival is a lively event celebrating diverse cuisines and cultural traditions from different regions. Attendees will have the opportunity to taste a wide variety of dishes prepared by local chefs and food vendors while enjoying live cultural performances and entertainment. The festival aims to promote cultural appreciation and bring people together through shared experiences of food, music, and art. There will also be activities for families and children, making it a fun and engaging experience for all age groups",
+      "date": "2026-06-23T15:35",
+      "createdAt": "2026-06-23T14:35:00.000Z",
+      "categories": [
+        "food",
+        "culture"
+      ],
+      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+      "createdBy": "silas"
+    },
+    {
+      "id": "1776955747902",
+      "title": "Photography Walk ",
+      "location": "lagos",
+      "description": "This photography walk and workshop is designed for both beginners and enthusiasts who want to improve their photography skills while exploring the city. Participants will learn about composition, lighting, framing, and storytelling through images. The session will include a guided walk where attendees can practice taking photos in real environments, followed by a review session where instructors provide feedback and tips for improvement. Whether you are using a smartphone or a professional camera, this event offers a great opportunity to develop your creative eye and connect with other photography lovers",
+      "date": "2026-04-30T15:48",
+      "categories": [
+        "photograpghy",
+        "creative"
+      ],
+      "image": "https://images.unsplash.com/photo-1625980221833-ad4f4ed05706?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGhveXRvZ3JhcGh5fGVufDB8fDB8fHww",
+      "createdAt": "2026-04-23T16:00:40.339Z",
+      "createdBy": "Giovanni"
+    }
+  ]
+}

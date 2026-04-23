@@ -16,6 +16,7 @@ export default function Header() {
                 <li><NavLink to="/events" className={({isActive}) => (isActive ? 'active' : 'inactive')}>Events</NavLink></li>
                 <li><NavLink to="/event-list" className={({isActive}) => (isActive ? 'active' : 'inactive')}>Event List</NavLink></li>
                 <li><NavLink to="/contact" className={({isActive}) => (isActive ? 'active' : 'inactive')}>Contact</NavLink></li>
+                <li className="admin"><NavLink to="/admin" className={({isActive}) => (isActive ? 'active' : 'inactive')}>Admin</NavLink></li>
             </ul>
         </header>
     )

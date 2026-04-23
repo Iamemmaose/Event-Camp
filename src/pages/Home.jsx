@@ -14,13 +14,12 @@ export default function Home() {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                const response = await fetch(`https://event-listing-fd519-default-rtdb.firebaseio.com/events.json`)
+                const response = await fetch(`http://localhost:5000/events`)
                 if(!response.ok) {
                     throw new Error(`Failed to fetch events`)
                 }
                 const data =  await response.json()
-                const eventsArray = Object.values(data || {})
-                setEvents(eventsArray.slice(0,4))
+                setEvents(data.slice(0,4))
             } catch(error) {
                 setError(error.message)
             } finally {

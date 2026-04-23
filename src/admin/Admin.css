@@ -1,0 +1,131 @@
+.admin-layout {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
+}
+
+.dashboard{
+    background: var(--surface);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow)
+}
+
+.sidebar {
+    flex-basis: 200px;
+    max-width: 200px;
+    min-height: 100dvh;
+    border-right: 1px solid var(--muted);
+}
+
+.sidebar-header{
+    position: fixed;
+}
+
+.sidebar .activeLink {
+    color: var(--accent-strong);
+}
+.sidebar div {
+    margin-bottom: 1rem;
+}
+
+main {
+    flex: 1;
+    padding:0 2rem 2rem;
+}
+
+.manage-list {
+  margin-top: 1rem;
+}
+
+.manage-item {
+    background: var(--surface);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    text-transform: capitalize;
+}
+
+.add-event-btn,
+.edit-btn,
+.delete-btn {
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+}
+
+.edit-btn {
+    margin-right: 1rem;
+}
+
+
+.add-event {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--surface);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.add-event-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.add-event-header h2 {
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.add-event-header p {
+    color: var(--muted-text);
+    font-size: 0.9rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form label {
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.form input {
+    padding: 0.75rem;
+    border: 1px solid var(--muted);
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form button {
+    padding: 0.75rem 1.5rem;
+    background: var(--accent);
+    color: var(--surface);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+}
+
+.form button:hover {
+    background: var(--accent-strong);
+}
+
