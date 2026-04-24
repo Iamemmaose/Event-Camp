@@ -29,6 +29,7 @@ Tech Stack
 
 Project Structure
 
+```bash id="9a8k2m"
 Event-Camp/
 ├── public/
 ├── src/
@@ -38,29 +39,41 @@ Event-Camp/
 │   └── index.js
 ├── package.json
 └── README.md
+```
 
 Getting Started
 
 Clone the repository
 
+```bash id="y6sk3d"
 git clone https://github.com/Iamemmaose/Event-Camp.git
-
+```
 
 Navigate into the project
 
+```bash id="p7n1wq"
 cd Event-Camp
+```
 
 Install dependencies
 
+```bash id="z3d8lf"
 npm install
+```
 
 Run the development server
 
+```bash id="u2k9rx"
 npm start
+```
 
 App runs on:
 
+```id="xq91mb"
 http://localhost:3000
+```
+
+---
 
 Tools Used
 
@@ -84,7 +97,7 @@ Future Improvements
 * Improve UI with animations
 * Deploy live version
 
- Author
+Author
 
 **Emma Ose**
 
