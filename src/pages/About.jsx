@@ -22,11 +22,13 @@ export default function About() {
           </button>
         </div>
 
-        <img
-          className="hero-image"
-          src="/eventcamp-logo.svg"
-          alt="EventCamp project preview"
-        />
+        <div className="image-box">
+          <img
+            className="hero-image"
+            src="/eventcamp-logo.svg"
+            alt="EventCamp project preview"
+          />
+        </div>
       </section>
 
       <section className="content-blocks">
@@ -45,21 +47,6 @@ export default function About() {
             From the event dashboard to attendee-facing listings, EventCamp creates a dependable environment for growing communities.
           </p>
         </article>
-
-        <div className="grid-three">
-          <div className="stat-card">
-            <strong>Structured</strong>
-            <span>Clear page sections and intuitive navigation</span>
-          </div>
-          <div className="stat-card">
-            <strong>Branded</strong>
-            <span>Consistent styling with CSS variables and soft visual contrast</span>
-          </div>
-          <div className="stat-card">
-            <strong>Professional</strong>
-            <span>Designed for modern event management workflows</span>
-          </div>
-        </div>
       </section>
     </main>
   )

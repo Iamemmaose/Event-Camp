@@ -10,7 +10,7 @@
 }
 
 .hero-section h1 {
-    font-size: 3rem;
+    font-size: clamp(1.8rem, 5vw, 3rem);
     font-weight: 700;
     margin: 4rem 0 0.5rem;
     color: var(--surface);
@@ -18,7 +18,7 @@
 }
 
 .hero-section p {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
     font-weight: 500;
     max-width: 600px;
     color: var(--surface-strong);
@@ -27,4 +27,36 @@
 .hero-section button {
     margin: 2rem 1rem 0 0;
     padding: 0.75rem 1.5rem;
+    align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 1.5rem;
+        min-height: 60dvh;
+        background-attachment: scroll;
+    }
+
+    .hero-section h1 {
+        margin: 2rem 0 0.5rem;
+    }
+
+    .hero-section button {
+        margin: 2rem 1rem 0 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 1rem;
+        min-height: 50dvh;
+    }
+
+    .hero-section h1 {
+        margin: 1.5rem 0 0.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
 }

@@ -5,7 +5,6 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
-import EventList from './pages/EventList'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 import EventDetails from './components/EventDetails'
@@ -25,7 +24,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/events' element={<Events />} />
-          <Route path='/event-list' element={<EventList />} />
           <Route path ='/events/:id' element={<EventDetails />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/admin' element={<AdminLayout />}>

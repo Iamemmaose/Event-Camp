@@ -35,7 +35,6 @@
     object-position: center;
 }
 
-
 .event-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0,0,0,0.4);
@@ -45,9 +44,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 0.5rem;
- }
+}
 
- .event-actions {
+.event-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,5 +59,72 @@
 
 .event {
     padding-top: 6rem;
+}
+
+
+
+@media (max-width: 1290px) {
+    .event-card {
+        flex: 1 1 calc(33.333% - 1rem);
+        max-width: 33.33%;
+    }
+}
+@media (max-width: 1024px) {
+
+    .event-listing {
+        padding: 0 1.5rem 0;
+    }
+}
+
+/* Tablet (768px and below) */
+@media (max-width: 992px) {
+    .event-card {
+        flex: 1 1 calc(50% - 1rem);
+        max-width: 50%;
+    }
+
+    .event-imagebox {
+        height: 200px;
+    }
+
+    .event-listing {
+        padding: 0 1rem 0;
+        gap: 0.75rem;
+    }
+
+    .event-card {
+        padding: 0.75rem;
+    }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 600px) {
+    .event-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .event-imagebox {
+        height: 180px;
+    }
+
+    .event-listing {
+        padding: 0 0.75rem 0;
+        gap: 0.5rem;
+    }
+
+    .event-card {
+        padding: 0.5rem;
+    }
+
+    .event-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .event-actions button {
+        width: 100%;
+        padding: 0.5rem;
+    }
 }
 

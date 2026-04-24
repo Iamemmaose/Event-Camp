@@ -70,9 +70,62 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    padding: 0.6rem 1.2rem;
+    white-space: nowrap;
 }
 
 button:hover {
     background: var(--accent-strong);
     transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Responsive Typography */
+@media (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        line-height: 1.6;
+    }
+
+    button {
+        font-size: 0.95rem;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+
+    body {
+        line-height: 1.5;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 0.45rem 0.9rem;
+        border-radius: 6px;
+    }
+
+    img,
+    picture,
+    video,
+    svg {
+        max-width: 100%;
+        height: auto;
+    }
 }

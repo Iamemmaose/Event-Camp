@@ -31,7 +31,6 @@ export default function EventCard({event}) {
             </div>
             <div className="event-actions">
                 <button onClick={() => navigate(`/events/${event.id}`)}> View Details</button>
-                <button>Add to list</button>
             </div>
         </div>
     )

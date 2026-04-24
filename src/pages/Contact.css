@@ -1,0 +1,250 @@
+.contact-page {
+  min-height: 100vh;
+  padding: 4rem 1.5rem 3rem;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  max-width: 100%;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 28px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.contact-info {
+  padding: 1.75rem;
+  background: var(--surface-strong);
+  border-radius: 16px;
+  border: 1px solid rgba(168, 85, 247, 0.12);
+}
+
+.contact-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  color: var(--accent-strong);
+}
+
+.contact-info p {
+  color: rgba(91, 33, 182, 0.85);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.contact-form form {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface-strong);
+  color: var(--text);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--accent);
+  color: var(--surface);
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: var(--accent-strong);
+}
+
+@media (max-width: 1024px) {
+  .contact-form {
+    padding: 1.75rem;
+  }
+
+  .contact-grid {
+    gap: 1.5rem;
+  }
+
+  .contact-info {
+    padding: 1.5rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .contact-form h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-grid {
+    gap: 1.25rem;
+  }
+
+  .contact-info {
+    padding: 1.25rem;
+    border-radius: 12px;
+  }
+
+  .contact-info h2 {
+    font-size: 1.1rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+
+  .contact-form label {
+    font-size: 0.9rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.65rem;
+    border-radius: 8px;
+  }
+
+  .contact-form button {
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-page {
+    padding: 2.5rem 0.75rem 1.5rem;
+    min-height: auto;
+  }
+
+  .contact-form {
+    padding: 1.25rem;
+    border-radius: 16px;
+  }
+
+  .contact-form h1 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .contact-grid {
+    gap: 1rem;
+  }
+
+  .contact-info {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .contact-info h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-info p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .contact-form .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .contact-form label {
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.6rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+
+  .contact-form textarea {
+    min-height: 100px;
+  }
+
+  .contact-form button {
+    padding: 0.6rem;
+    font-size: 0.9rem;
+  }
+}
+}
+
+.contact-form button:hover {
+  background: var(--accent-strong);
+}
+
+@media (max-width: 680px) {
+  .contact-page {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}

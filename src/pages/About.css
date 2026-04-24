@@ -12,7 +12,6 @@
   margin: 2rem auto 3rem;
   grid-template-columns: minmax(220px, 1fr) minmax(320px, 1fr);
   align-items: center;
-  
 }
 
 .about-page h1 {
@@ -28,13 +27,37 @@
   margin-bottom: 1.75rem;
 }
 
-.cta-button{
-    padding: 0.75rem 1.5rem;
+.cta-button {
+  padding: 0.75rem 1.5rem;
 }
 
 .about-page .highlight {
   color: var(--accent-strong);
   font-weight: 700;
+}
+
+.about-page .image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.05) 100%);
+  border-radius: 40px;
+  border: 2px solid var(--border);
+  box-shadow: 0 10px 40px rgba(147, 51, 234, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-page .image-box::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, transparent 70%);
+  pointer-events: none;
 }
 
 .about-page .hero-image {
@@ -44,6 +67,9 @@
   box-shadow: var(--shadow);
   object-fit: cover;
   border: 1px solid var(--border);
+  width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .about-page .content-blocks {
@@ -69,34 +95,35 @@
   color: rgba(91, 33, 182, 0.85);
 }
 
-.about-page .grid-three {
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.about-page .stat-card {
-  padding: 1.5rem;
-  border-radius: 24px;
-  background: var(--surface-strong);
-  text-align: center;
-  border: 1px solid rgba(168, 85, 247, 0.12);
-}
-
-.about-page .stat-card strong {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-size: 1.95rem;
-  color: var(--accent-strong);
-}
-
-.about-page .stat-card span {
-  display: block;
-  color: var(--muted);
-}
-
 .about-page .cta-button {
   margin-top: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .about-page {
+    padding: 4.5rem 1rem 2rem;
+  }
+
+  .about-page h1 {
+    font-size: clamp(2rem, 2.5vw, 2.8rem);
+  }
+
+  .about-page .image-box {
+    padding: 1.75rem;
+    border-radius: 32px;
+  }
+
+  .about-page .hero-image {
+    border-radius: 28px;
+  }
+
+  .about-page .content-card {
+    padding: 1.5rem;
+  }
+
+  .about-page .content-card h2 {
+    font-size: 1.35rem;
+  }
 }
 
 @media (max-width: 860px) {
@@ -105,13 +132,94 @@
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .about-page {
-    padding: 3rem 1rem 2rem;
+    padding: 4.5rem 1rem 2rem;
   }
 
-  .about-page .content-card,
-  .about-page .grid-three {
-    grid-template-columns: 1fr;
+  .about-page h1 {
+    font-size: clamp(1.8rem, 2vw, 2.2rem);
+  }
+
+  .about-page p.lead {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-page .image-box {
+    padding: 1.5rem;
+    border-radius: 24px;
+  }
+
+  .about-page .hero-image {
+    border-radius: 20px;
+    max-width: 100%;
+  }
+
+  .about-page .content-card {
+    padding: 1.25rem;
+    border-radius: 20px;
+  }
+
+  .about-page .content-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-page .content-card p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-page {
+    padding: 4.5rem 1rem 2rem;
+  }
+
+  .about-page h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-page p.lead {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-page .image-box {
+    padding: 1rem;
+    border-radius: 16px;
+  }
+
+  .about-page .hero-image {
+    border-radius: 12px;
+  }
+
+  .about-page .page-header {
+    gap: 1.5rem;
+  }
+
+  .about-page .content-blocks {
+    gap: 1.5rem;
+  }
+
+  .about-page .content-card {
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .about-page .content-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .about-page .content-card p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .cta-button {
+    padding: 0.6rem 1.2rem !important;
+    font-size: 0.9rem;
   }
 }
