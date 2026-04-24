@@ -1,91 +1,113 @@
 Event Camp
 
-A modern **event management web application** built with React, designed to showcase events, schedules, and information in a clean and interactive UI.
+A modern **event management web application** built with React, designed to showcase events, schedules, and engaging UI components in a clean and responsive interface.
 
-GitHub Repo:https://github.com/Iamemmaose/Event-Camp
+**GitHub Repository:** https://github.com/Iamemmaose/Event-Camp
 
-About the Project:
+**Live Demo:** https://event-camp-phi.vercel.app/event-camp-phi.vercel.app
 
-**Event Camp** is a React-based frontend application that simulates an event platform where users can explore event details in a structured and responsive interface.
+About
 
-This project was built to practice:
+**Event Camp** is a frontend React application that simulates a real-world event platform where users can explore event details, schedules, and organized content.
 
-* Component-based architecture in React
-* State management basics
-* Reusable UI components
-* Clean project structuring using modern frontend tools
+The project focuses on building a scalable UI using **component-based architecture** and modern frontend practices.
 
-Features:
+Features
 
-* Modern event landing page UI
-* Reusable React components
-* Fully responsive design (mobile-first approach)
-* Smooth navigation between sections
-* Clean and minimal interface design
-* Fast and optimized React rendering
+* Built with React (component-based structure)
+* Fully responsive design across devices
+* Clean navigation and layout structure
+* Modern and minimal UI design
+* Event-focused sections (event info, schedule, etc.)
+* Fast and optimized performance
 
 Tech Stack
 
-| Technology                | Purpose               |
-| ------------------------- | --------------------- |
-| React.js                  | Frontend framework    |
-| JavaScript (ES6+)         | Logic & interactivity |
-| CSS3                      | Styling               |
-| HTML5                     | Structure (via JSX)   |
+* **React.js** – Frontend framework
+* **JavaScript (ES6+)** – Logic and interactivity
+* **CSS3** – Styling
+* **HTML5 (JSX)** – Structure
 
 Project Structure
 
-```bash id="rq2l7k"
+```bash id="9a8k2m"
 Event-Camp/
 ├── public/
 ├── src/
-│   ├── components/   # Reusable UI components
-│   ├── pages/        # Page-level components
-│   ├── assets/       # Images, icons, etc.
-│   ├── App.js        # Root component
-│   └── index.js      # Entry point
+│   ├── components/
+│   ├── assets/
+│   ├── App.js
+│   └── index.js
 ├── package.json
 └── README.md
 ```
 
-Getting Started (Local Setup)
+Getting Started
 
-To run this project locally:
+Clone the repository
 
-1. Clone the repository
+```bash id="y6sk3d"
 git clone https://github.com/Iamemmaose/Event-Camp.git
+```
 
-2. Navigate into the project
+Navigate into the project
+
+```bash id="p7n1wq"
 cd Event-Camp
+```
 
-3. Install dependencies
+Install dependencies
+
+```bash id="z3d8lf"
 npm install
+```
 
-4. Start development server
+Run the development server
+
+```bash id="u2k9rx"
 npm start
+```
 
-The app will run on:
+App runs on:
+
+```id="xq91mb"
 http://localhost:3000
+```
 
-Tools Used:
+---
 
-* **VS Code** – Code editor
-* **Git** – Version control
-* **GitHub** – Repository hosting
-* **React Dev Tools** – Debugging React components
+Tools Used
 
+* VS Code
+* Git
+* GitHub
+
+What I Learned
+
+* Building scalable apps with React
+* Creating reusable components
+* Structuring frontend projects professionally
+* Managing version control using Git & GitHub
+* Improving responsive UI design
+
+Future Improvements
+
+* Add backend (Node.js / Firebase)
+* Implement authentication system
+* Add event registration feature
+* Improve UI with animations
+* Deploy live version
 
 Author
 
 **Emma Ose**
 
-* GitHub: https://github.com/Iamemmaose
-* Built with React + VS Code
+GitHub: https://github.com/Iamemmaose
 
 Support
 
 If you like this project:
 
-* Star this repository
+* Star the repo
 * Fork it
 * Share feedback
