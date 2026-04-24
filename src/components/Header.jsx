@@ -22,6 +22,7 @@ export default function Header() {
                     <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>About</NavLink></li>
                     <li><NavLink to="/events" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Events</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Contact</NavLink></li>
+                    <li><NavLink to="/admin" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Admin</NavLink></li>
                         
                 </ul>
             <div className='menubar'><i className={`fa-solid ${showMenu ? 'fa-x' : 'fa-bars'}`} onClick={handleOpenMenu}></i>
@@ -33,7 +34,7 @@ export default function Header() {
                     <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>About</NavLink></li>
                     <li><NavLink to="/events" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Events</NavLink></li>
                     <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Contact</NavLink></li>
-                    <li className="admin"><NavLink to="/admin" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Admin</NavLink></li>
+                    <li><NavLink to="/admin" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Admin</NavLink></li>
                 </ul>)}
         </header>
     )
