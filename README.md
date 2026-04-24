@@ -3,7 +3,7 @@ Event Camp
 A modern **event management web application** built with React, designed to showcase events, schedules, and engaging UI components in a clean and responsive interface.
 
 **GitHub Repository:** https://github.com/Iamemmaose/Event-Camp
-**Live Demo:** event-camp-phi.vercel.app
+**Live Demo:** https://event-camp-phi.vercel.app/event-camp-phi.vercel.app
 
 About
 
