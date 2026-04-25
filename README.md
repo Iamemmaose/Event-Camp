@@ -4,7 +4,6 @@ A modern **event management web application** built with React, designed to show
 
 **GitHub Repository:** https://github.com/Iamemmaose/Event-Camp
 
-**Live Demo:** https://event-camp-phi.vercel.app/event-camp-phi.vercel.app
 
 About
 
